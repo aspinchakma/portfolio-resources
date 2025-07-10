@@ -366,3 +366,136 @@ footer {
   border: none;
   color: rgb(117, 117, 117);
 }
+
+/* Responsive design */
+
+@media screen and (max-width: 500px) {
+  /* Header section */
+  header {
+    padding-top: 25px;
+  }
+  nav {
+    width: 100%;
+  }
+  nav h2 {
+    font-size: 25px;
+  }
+  /* hiding menu */
+  .menu {
+    display: none;
+  }
+
+  /* banner section */
+  .banner {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+  }
+  .banner_parent {
+    width: 95%;
+    grid-template-columns: 1fr;
+  }
+  .banner_text > h2 {
+    font-size: 28px;
+  }
+  .banner_text > h1 {
+    font-size: 40px;
+    margin: 10px 0px;
+  }
+  .banner_text p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  /* About Me section */
+  .about_me {
+    width: 100%;
+    text-align: center;
+    margin: 70px auto;
+    padding: 30px;
+  }
+  .about_me_container > h3 {
+    font-size: 25px;
+  }
+  .about_me_container > p {
+    color: var(--second-color);
+    font-size: 15px;
+  }
+  .about_me_container .personal_information {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* What i do section */
+  .what_i_do_container {
+    width: 100%;
+    margin: 70px auto;
+  }
+
+  .what_i_do_container_title {
+    width: 95%;
+    margin: 0 auto 40px;
+  }
+  .what_i_do_container_title h2 {
+    font-size: 28px;
+  }
+  .what_i_do_container_title p {
+    font-size: 16px;
+  }
+  .skills {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 40px;
+  }
+
+  /* My Resume section */
+  .resume {
+    margin-bottom: 40px;
+  }
+  .resume > h2 {
+    font-size: 28px;
+    margin-bottom: 0px;
+  }
+
+  .resume_details {
+    width: 95%;
+    grid-template-columns: 1fr;
+    grid-column-gap: 65px;
+  }
+  .resume_details_info {
+    margin-top: 30px;
+  }
+
+  /* footer */
+  footer {
+    height: auto;
+    padding: 40px 0;
+    background-color: rgb(255, 248, 243);
+  }
+  .footer_container {
+    width: 95%;
+    margin: 0px auto 0px;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+  }
+
+  .connect > h2 {
+    text-align: center;
+  }
+  .connect > p {
+    text-align: center;
+    margin: 15px 0;
+  }
+  .connect > div {
+    text-align: center;
+  }
+  .connect > div i {
+    font-size: 24px;
+  }
+  .message_form h2 {
+    text-align: center;
+  }
+  .button_container_form {
+    text-align: center;
+  }
+}
