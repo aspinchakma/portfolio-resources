@@ -375,10 +375,10 @@ footer {
     padding-top: 25px;
   }
   nav {
-    width: 100%;
+    width: 95%;
   }
   nav h2 {
-    font-size: 25px;
+    font-size: 40px;
   }
   /* hiding menu */
   .menu {
@@ -394,6 +394,7 @@ footer {
   }
   .banner_parent {
     width: 95%;
+    margin: 0px auto;
     grid-template-columns: 1fr;
   }
   .banner_text > h2 {
@@ -406,6 +407,12 @@ footer {
   .banner_text p {
     font-size: 15px;
     margin-bottom: 20px;
+  }
+  #banner_imag_aspin {
+    text-align: center;
+  }
+  #banner_imag_aspin img {
+    width: 100%;
   }
 
   /* About Me section */
